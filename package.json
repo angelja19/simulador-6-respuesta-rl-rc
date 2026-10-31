@@ -1,0 +1,33 @@
+{
+  "name": "simulador-6-respuesta-rl-rc",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simulador 6 – Respuesta Natural y a un Escalón de Circuitos RL y RC · Circuitos I · Ingeniería Electromecánica UMSS",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173 --strictPort",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chart.js": "^4.6.1",
+    "katex": "^0.16.11",
+    "mathjs": "^15.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/katex": "^0.16.7",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}
